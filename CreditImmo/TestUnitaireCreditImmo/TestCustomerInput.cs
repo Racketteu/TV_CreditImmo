@@ -5,7 +5,7 @@ namespace TestUnitaireCreditImmo
 {
     public class TestCustomerInput
     {
-        //Test Get CustomerInput
+        #region Get CustomerInput
         [Theory]
         [InlineData(1, 2, 3)]
         public void GetDuration_Returns_CorrectValue(int duration, int amount, int nominalRate)
@@ -32,9 +32,9 @@ namespace TestUnitaireCreditImmo
             int nominalRateResult = customer.GetNominalRate();
             Assert.Equal(nominalRate, nominalRateResult);
         }
+        #endregion
 
-
-        //Test Check CustomerInput
+        #region Test Check CustomerInput
         [Theory]
         [InlineData(108)]
         [InlineData(300)]
@@ -89,5 +89,6 @@ namespace TestUnitaireCreditImmo
             CustomerInput customer = new CustomerInput(0, 0, nominalRate);
             Assert.False(customer.CheckNominalRate());
         }
+        #endregion
     }
 }
