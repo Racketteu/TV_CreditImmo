@@ -1,0 +1,15 @@
+C:\Users\wboya\OneDrive\Bureau\TV_CreditImmo\CreditImmo\CreditImmo\bin\Debug\net8.0\CreditImmo.exe
+C:\Users\wboya\OneDrive\Bureau\TV_CreditImmo\CreditImmo\CreditImmo\bin\Debug\net8.0\CreditImmo.deps.json
+C:\Users\wboya\OneDrive\Bureau\TV_CreditImmo\CreditImmo\CreditImmo\bin\Debug\net8.0\CreditImmo.runtimeconfig.json
+C:\Users\wboya\OneDrive\Bureau\TV_CreditImmo\CreditImmo\CreditImmo\bin\Debug\net8.0\CreditImmo.dll
+C:\Users\wboya\OneDrive\Bureau\TV_CreditImmo\CreditImmo\CreditImmo\bin\Debug\net8.0\CreditImmo.pdb
+C:\Users\wboya\OneDrive\Bureau\TV_CreditImmo\CreditImmo\CreditImmo\obj\Debug\net8.0\CreditImmo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\wboya\OneDrive\Bureau\TV_CreditImmo\CreditImmo\CreditImmo\obj\Debug\net8.0\CreditImmo.AssemblyInfoInputs.cache
+C:\Users\wboya\OneDrive\Bureau\TV_CreditImmo\CreditImmo\CreditImmo\obj\Debug\net8.0\CreditImmo.AssemblyInfo.cs
+C:\Users\wboya\OneDrive\Bureau\TV_CreditImmo\CreditImmo\CreditImmo\obj\Debug\net8.0\CreditImmo.csproj.CoreCompileInputs.cache
+C:\Users\wboya\OneDrive\Bureau\TV_CreditImmo\CreditImmo\CreditImmo\obj\Debug\net8.0\CreditImmo.sourcelink.json
+C:\Users\wboya\OneDrive\Bureau\TV_CreditImmo\CreditImmo\CreditImmo\obj\Debug\net8.0\CreditImmo.dll
+C:\Users\wboya\OneDrive\Bureau\TV_CreditImmo\CreditImmo\CreditImmo\obj\Debug\net8.0\refint\CreditImmo.dll
+C:\Users\wboya\OneDrive\Bureau\TV_CreditImmo\CreditImmo\CreditImmo\obj\Debug\net8.0\CreditImmo.pdb
+C:\Users\wboya\OneDrive\Bureau\TV_CreditImmo\CreditImmo\CreditImmo\obj\Debug\net8.0\CreditImmo.genruntimeconfig.cache
+C:\Users\wboya\OneDrive\Bureau\TV_CreditImmo\CreditImmo\CreditImmo\obj\Debug\net8.0\ref\CreditImmo.dll

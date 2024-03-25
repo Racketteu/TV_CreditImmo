@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\wboya\\source\\repos\\CreditImmo\\CreditImmo\\CreditImmo.csproj",
+      "projectUniqueName": "C:\\Users\\wboya\\OneDrive\\Bureau\\TV_CreditImmo\\CreditImmo\\CreditImmo\\CreditImmo.csproj",
       "projectName": "CreditImmo",
-      "projectPath": "C:\\Users\\wboya\\source\\repos\\CreditImmo\\CreditImmo\\CreditImmo.csproj",
+      "projectPath": "C:\\Users\\wboya\\OneDrive\\Bureau\\TV_CreditImmo\\CreditImmo\\CreditImmo\\CreditImmo.csproj",
       "packagesPath": "C:\\Users\\wboya\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\wboya\\source\\repos\\CreditImmo\\CreditImmo\\obj\\",
+      "outputPath": "C:\\Users\\wboya\\OneDrive\\Bureau\\TV_CreditImmo\\CreditImmo\\CreditImmo\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\wboya\\AppData\\Roaming\\NuGet\\NuGet.Config",
