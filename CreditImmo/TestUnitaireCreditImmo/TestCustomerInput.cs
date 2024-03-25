@@ -8,7 +8,7 @@ namespace TestUnitaireCreditImmo
         #region Get CustomerInput
         [Theory]
         [InlineData(1, 2, 3)]
-        public void GetDuration_Returns_CorrectValue(int duration, int amount, int nominalRate)
+        public void GetDuration_Returns_CorrectValue(int duration, double amount, double nominalRate)
         {
             CustomerInput customer = new CustomerInput(duration, amount, nominalRate);
             int durationResult = customer.GetDuration();
@@ -17,19 +17,19 @@ namespace TestUnitaireCreditImmo
 
         [Theory]
         [InlineData(1, 2, 3)]
-        public void GetAmount_Returns_CorrectValue(int duration, int amount, int nominalRate)
+        public void GetAmount_Returns_CorrectValue(int duration, double amount, double nominalRate)
         {
             CustomerInput customer = new CustomerInput(duration, amount, nominalRate);
-            int amountResult = customer.GetAmount();
+            double amountResult = customer.GetAmount();
             Assert.Equal(amount, amountResult);
         }
 
         [Theory]
         [InlineData(1, 2, 3)]
-        public void GetNominalRate_Returns_CorrectValue(int duration, int amount, int nominalRate)
+        public void GetNominalRate_Returns_CorrectValue(int duration, double amount, double nominalRate)
         {
             CustomerInput customer = new CustomerInput(duration, amount, nominalRate);
-            int nominalRateResult = customer.GetNominalRate();
+            double nominalRateResult = customer.GetNominalRate();
             Assert.Equal(nominalRate, nominalRateResult);
         }
         #endregion
@@ -57,7 +57,7 @@ namespace TestUnitaireCreditImmo
         [Theory]
         [InlineData(50000)]
         [InlineData(50001)]
-        public void CheckAmount_TestTrue(int amount)
+        public void CheckAmount_TestTrue(double amount)
         {
             CustomerInput customer = new CustomerInput(0, amount, 0);
             Assert.True(customer.CheckAmount());
@@ -66,7 +66,7 @@ namespace TestUnitaireCreditImmo
         [Theory]
         [InlineData(-1)]
         [InlineData(49999)]
-        public void CheckAmount_TestFalse(int amount)
+        public void CheckAmount_TestFalse(double amount)
         {
             CustomerInput customer = new CustomerInput(0, amount, 0);
             Assert.False(customer.CheckAmount());
@@ -75,7 +75,7 @@ namespace TestUnitaireCreditImmo
         [Theory]
         [InlineData(0)]
         [InlineData(100)]
-        public void CheckNominalRate_TestTrue(int nominalRate)
+        public void CheckNominalRate_TestTrue(double nominalRate)
         {
             CustomerInput customer = new CustomerInput(0, 0, nominalRate);
             Assert.True(customer.CheckNominalRate());
@@ -84,7 +84,7 @@ namespace TestUnitaireCreditImmo
         [Theory]
         [InlineData(-1)]
         [InlineData(101)]
-        public void CheckNominalRate_TestFalse(int nominalRate)
+        public void CheckNominalRate_TestFalse(double nominalRate)
         {
             CustomerInput customer = new CustomerInput(0, 0, nominalRate);
             Assert.False(customer.CheckNominalRate());

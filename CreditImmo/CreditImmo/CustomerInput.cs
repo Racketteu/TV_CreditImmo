@@ -9,10 +9,10 @@ namespace CreditImmo
     public class CustomerInput
     {
         private int Duration { get; set; }
-        private int Amount { get; set; }
-        private int NominalRate { get; set; }
+        private double Amount { get; set; }
+        private double NominalRate { get; set; }
 
-        public CustomerInput(int duration, int amount, int nominalRate)
+        public CustomerInput(int duration, double amount, double nominalRate)
         {
             Duration = duration;
             Amount = amount;
@@ -20,8 +20,8 @@ namespace CreditImmo
         }
 
         public int GetDuration() { return Duration; }
-        public int GetAmount() { return Amount; }
-        public int GetNominalRate() { return NominalRate; }
+        public double GetAmount() { return Amount; }
+        public double GetNominalRate() { return NominalRate; }
 
 
         public bool CheckDuraction()
