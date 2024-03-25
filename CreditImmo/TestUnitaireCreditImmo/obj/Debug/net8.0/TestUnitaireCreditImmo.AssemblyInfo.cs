@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TestUnitaireCreditImmo")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+95a86ad39fbfbdca4e7da40ea87c2c8a1d701c4d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e036c64aa9d2354a5a724607e991f3c52dc9b9cb")]
 [assembly: System.Reflection.AssemblyProductAttribute("TestUnitaireCreditImmo")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TestUnitaireCreditImmo")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
