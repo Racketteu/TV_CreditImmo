@@ -5,14 +5,14 @@ namespace TestUnitaireCreditImmo
 {
     public class TestCustomerInput
     {
-        //Get CustomerInputTest
+        //Test Get CustomerInput
         [Theory]
         [InlineData(1, 2, 3)]
         public void GetDuration_Returns_CorrectValue(int duration, int amount, int nominalRate)
         {
             CustomerInput customer = new CustomerInput(duration, amount, nominalRate);
             int durationResult = customer.GetDuration();
-            Assert.Equal(5, durationResult);
+            Assert.Equal(duration, durationResult);
         }
 
         [Theory]
@@ -21,7 +21,7 @@ namespace TestUnitaireCreditImmo
         {
             CustomerInput customer = new CustomerInput(duration, amount, nominalRate);
             int amountResult = customer.GetAmount();
-            Assert.Equal(100, amountResult);
+            Assert.Equal(amount, amountResult);
         }
 
         [Theory]
@@ -30,68 +30,43 @@ namespace TestUnitaireCreditImmo
         {
             CustomerInput customer = new CustomerInput(duration, amount, nominalRate);
             int nominalRateResult = customer.GetNominalRate();
-            Assert.Equal(10, nominalRateResult);
+            Assert.Equal(nominalRate, nominalRateResult);
         }
 
-        [Fact]
-        public void CheckDuration_Test()
+
+        //Test Check CustomerInput
+        [Theory]
+        [InlineData(-1) ]
+        [InlineData(107)]
+        [InlineData(108)]
+        [InlineData(300)]
+        [InlineData(301)]
+        public void CheckDuration_Test(int duration)
         {
-            Assert.True(CheckDuraction());
+            CustomerInput customer = new CustomerInput(duration, 0, 0);
+            Assert.True(customer.CheckDuraction());
         }
 
-        [Fact]
-        public void CheckAmount_Test()
+        [Theory]
+        [InlineData(-1)]
+        [InlineData(49999)]
+        [InlineData(50000)]
+        [InlineData(50001)]
+        public void CheckAmount_Test(int amount)
         {
-            Assert.True(CheckAmount());
-        }
-        
-        [Fact]
-        public void CheckNominalRate_Test()
-        { 
-            Assert.True(CheckNominalRate());
+            CustomerInput customer = new CustomerInput(0, amount, 0);
+            Assert.True(customer.CheckAmount());
         }
 
-
-
-
-        public bool CheckDuraction()
+        [Theory]
+        [InlineData(-1)]
+        [InlineData(0)]
+        [InlineData(100)]
+        [InlineData(101)]
+        public void CheckNominalRate_Test(int nominalRate)
         {
-            CustomerInput customer = new CustomerInput(10,100, 10);
-            if (customer.GetDuration() >= 108 && customer.GetDuration() <= 300)
-            {
-                return true;
-            }
-            else
-            {
-                return false;
-            }
+            CustomerInput customer = new CustomerInput(0, 0, nominalRate);
+            Assert.True(customer.CheckNominalRate());
         }
-
-        public bool CheckAmount()
-        {
-            CustomerInput customer = new CustomerInput(10, 100, 10);
-            if (customer.GetAmount() >= 50000)
-            {
-                return true;
-            }
-            else
-            {
-                return false;
-            }
-        }
-
-        public bool CheckNominalRate()
-        {
-            CustomerInput customer = new CustomerInput(10, 100, 10);
-            if (customer.GetNominalRate() >= 0 && customer.GetNominalRate() <= 100)
-            {
-                return true;
-            }
-            else
-            {
-                return false;
-            }
-        }
-
     }
 }

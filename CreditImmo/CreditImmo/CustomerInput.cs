@@ -22,5 +22,42 @@ namespace CreditImmo
         public int GetDuration() { return Duration; }
         public int GetAmount() { return Amount; }
         public int GetNominalRate() { return NominalRate; }
+
+
+        public bool CheckDuraction()
+        {
+            if (GetDuration() >= 108 && GetDuration() <= 300)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }
+
+        public bool CheckAmount()
+        {
+            if (GetAmount() >= 50000)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }
+
+        public bool CheckNominalRate()
+        {
+            if (GetNominalRate() >= 0 && GetNominalRate() <= 100)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }
     }
 }
