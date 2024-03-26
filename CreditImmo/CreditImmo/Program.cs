@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Text;
 
 namespace CreditImmo 
 {
@@ -6,7 +7,7 @@ namespace CreditImmo
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+
         }
     }
 }
