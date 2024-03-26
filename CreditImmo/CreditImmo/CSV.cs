@@ -23,8 +23,13 @@ namespace CreditImmo
                 debt -= monthlypayment;
                 debtrefund += monthlypayment;
             }
-
             return stringBuilder.ToString();
+        }
+
+        public void CSVCreate(string csvcontent)
+        {
+            System.IO.File.WriteAllText("debt.csv", csvcontent);
+            Console.WriteLine("File created");
         }
     }
 }
