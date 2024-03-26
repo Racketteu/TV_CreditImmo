@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "CreditImmo": {
+      "commandName": "Project",
+      "commandLineArgs": "300 100000 10"
+    }
+  }
+}

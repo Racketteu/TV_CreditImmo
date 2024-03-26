@@ -14,9 +14,11 @@ namespace CreditImmo
             StringBuilder stringBuilder = new StringBuilder();
             Calculation calculation = new Calculation();
             double monthlypayment = calculation.CalculateMonthlyPayment(customerInput);
-            double debt = customerInput.GetAmount();
+
+            double debt = monthlypayment*customerInput.GetDuration();
             double debtrefund = 0;
-            stringBuilder.AppendLine($"Nb; Mensualité; Capital Rembourse; Capital Restant");
+
+            stringBuilder.AppendLine($"Number; Monthly payment; Capital remaining; Capital repaid");
             for (int i = 0; i < customerInput.GetDuration(); i++)
             {
                 stringBuilder.AppendLine($"{i + 1};{monthlypayment};{debt};{debtrefund}");
