@@ -8,6 +8,23 @@ namespace CreditImmo
 {
     public class CSV
     {
+        public CSV() { }
+        public string CSVMake(CustomerInput customerInput)
+        {
+            StringBuilder stringBuilder = new StringBuilder();
+            Calculation calculation = new Calculation();
+            double monthlypayment = calculation.CalculateMonthlyPayment(customerInput);
+            double debt = customerInput.GetAmount();
+            double debtrefund = 0;
+            stringBuilder.AppendLine($"Nb; Mensualité; Capital Rembourse; Capital Restant");
+            for (int i = 0; i < customerInput.GetDuration(); i++)
+            {
+                stringBuilder.AppendLine($"{i + 1};{monthlypayment};{debt};{debtrefund}");
+                debt -= monthlypayment;
+                debtrefund += monthlypayment;
+            }
 
+            return stringBuilder.ToString();
+        }
     }
 }
