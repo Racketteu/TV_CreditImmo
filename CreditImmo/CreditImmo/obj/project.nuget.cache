@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "YZh8ktTvGSj97zM3zpmhS58zQLaNwY2NiQhM8elLuLAsyEYGtbIbURXZPrE1/mC/yc3tq2J6x6txizsl5aWUuA==",
+  "dgSpecHash": "guZiR/xC3Qm1MIj15iMSwllzVW1cRzXsMjRzvyez3KE70SOEjpX59B7O1EWPKEPtIH8hpZGXHlm/60qXh80siQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\wboya\\OneDrive\\Bureau\\Cours\\A2\\TestEtValidation\\TV_CreditImmo\\CreditImmo\\CreditImmo\\CreditImmo.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\wboya\\OneDrive\\Bureau\\Cours\\TV_CreditImmo\\CreditImmo\\CreditImmo\\CreditImmo.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\wboya\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.16\\microsoft.windowsdesktop.app.ref.7.0.16.nupkg.sha512",
+    "C:\\Users\\wboya\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.16\\microsoft.netcore.app.ref.7.0.16.nupkg.sha512",
+    "C:\\Users\\wboya\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.16\\microsoft.aspnetcore.app.ref.7.0.16.nupkg.sha512",
+    "C:\\Users\\wboya\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\7.0.16\\microsoft.netcore.app.host.win-x64.7.0.16.nupkg.sha512"
+  ],
   "logs": []
 }

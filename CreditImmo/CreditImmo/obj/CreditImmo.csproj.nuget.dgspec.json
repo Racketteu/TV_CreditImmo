@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\wboya\\OneDrive\\Bureau\\Cours\\A2\\TestEtValidation\\TV_CreditImmo\\CreditImmo\\CreditImmo\\CreditImmo.csproj": {}
+    "C:\\Users\\wboya\\OneDrive\\Bureau\\Cours\\TV_CreditImmo\\CreditImmo\\CreditImmo\\CreditImmo.csproj": {}
   },
   "projects": {
-    "C:\\Users\\wboya\\OneDrive\\Bureau\\Cours\\A2\\TestEtValidation\\TV_CreditImmo\\CreditImmo\\CreditImmo\\CreditImmo.csproj": {
+    "C:\\Users\\wboya\\OneDrive\\Bureau\\Cours\\TV_CreditImmo\\CreditImmo\\CreditImmo\\CreditImmo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\wboya\\OneDrive\\Bureau\\Cours\\A2\\TestEtValidation\\TV_CreditImmo\\CreditImmo\\CreditImmo\\CreditImmo.csproj",
+        "projectUniqueName": "C:\\Users\\wboya\\OneDrive\\Bureau\\Cours\\TV_CreditImmo\\CreditImmo\\CreditImmo\\CreditImmo.csproj",
         "projectName": "CreditImmo",
-        "projectPath": "C:\\Users\\wboya\\OneDrive\\Bureau\\Cours\\A2\\TestEtValidation\\TV_CreditImmo\\CreditImmo\\CreditImmo\\CreditImmo.csproj",
+        "projectPath": "C:\\Users\\wboya\\OneDrive\\Bureau\\Cours\\TV_CreditImmo\\CreditImmo\\CreditImmo\\CreditImmo.csproj",
         "packagesPath": "C:\\Users\\wboya\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\wboya\\OneDrive\\Bureau\\Cours\\A2\\TestEtValidation\\TV_CreditImmo\\CreditImmo\\CreditImmo\\obj\\",
+        "outputPath": "C:\\Users\\wboya\\OneDrive\\Bureau\\Cours\\TV_CreditImmo\\CreditImmo\\CreditImmo\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\wboya\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -34,6 +34,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -50,12 +55,30 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[7.0.16, 7.0.16]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[7.0.16, 7.0.16]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[7.0.16, 7.0.16]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[7.0.16, 7.0.16]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     }

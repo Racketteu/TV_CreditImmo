@@ -5529,11 +5529,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\wboya\\OneDrive\\Bureau\\Cours\\A2\\TestEtValidation\\TV_CreditImmo\\CreditImmo\\TestUnitaireCreditImmo\\TestUnitaireCreditImmo.csproj",
+      "projectUniqueName": "C:\\Users\\wboya\\OneDrive\\Bureau\\Cours\\TV_CreditImmo\\CreditImmo\\TestUnitaireCreditImmo\\TestUnitaireCreditImmo.csproj",
       "projectName": "TestUnitaireCreditImmo",
-      "projectPath": "C:\\Users\\wboya\\OneDrive\\Bureau\\Cours\\A2\\TestEtValidation\\TV_CreditImmo\\CreditImmo\\TestUnitaireCreditImmo\\TestUnitaireCreditImmo.csproj",
+      "projectPath": "C:\\Users\\wboya\\OneDrive\\Bureau\\Cours\\TV_CreditImmo\\CreditImmo\\TestUnitaireCreditImmo\\TestUnitaireCreditImmo.csproj",
       "packagesPath": "C:\\Users\\wboya\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\wboya\\OneDrive\\Bureau\\Cours\\A2\\TestEtValidation\\TV_CreditImmo\\CreditImmo\\TestUnitaireCreditImmo\\obj\\",
+      "outputPath": "C:\\Users\\wboya\\OneDrive\\Bureau\\Cours\\TV_CreditImmo\\CreditImmo\\TestUnitaireCreditImmo\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\wboya\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -5550,8 +5550,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\wboya\\OneDrive\\Bureau\\Cours\\A2\\TestEtValidation\\TV_CreditImmo\\CreditImmo\\CreditImmo\\CreditImmo.csproj": {
-              "projectPath": "C:\\Users\\wboya\\OneDrive\\Bureau\\Cours\\A2\\TestEtValidation\\TV_CreditImmo\\CreditImmo\\CreditImmo\\CreditImmo.csproj"
+            "C:\\Users\\wboya\\OneDrive\\Bureau\\Cours\\TV_CreditImmo\\CreditImmo\\CreditImmo\\CreditImmo.csproj": {
+              "projectPath": "C:\\Users\\wboya\\OneDrive\\Bureau\\Cours\\TV_CreditImmo\\CreditImmo\\CreditImmo\\CreditImmo.csproj"
             }
           }
         }
@@ -5560,6 +5560,11 @@
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -5599,7 +5604,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
       }
     }
   }

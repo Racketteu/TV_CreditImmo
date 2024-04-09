@@ -8,13 +8,13 @@ namespace CreditImmo
         static void Main(string[] args)
         {
             int duration = 0;
-            double amount = 0;
-            double nominalRate = 0;
+            decimal amount = 0;
+            decimal nominalRate = 0;
             try
             {
                 duration = int.Parse(args[0]);
-                amount = double.Parse(args[1]);
-                nominalRate = double.Parse(args[2]);
+                amount = decimal.Parse(args[1]);
+                nominalRate = decimal.Parse(args[2]);
             }
             catch {
                 Console.WriteLine("Erreur de saisie");
@@ -27,8 +27,9 @@ namespace CreditImmo
                 return;
             }
             CSV csv = new CSV();
-            string csvcontent = csv.CSVMake(customerInput);
-            csv.CSVCreate(csvcontent);
+            Calculation calculation = new Calculation();
+            var stringbuilder = calculation.CalculateMonthlyPayment(customerInput);
+            csv.CSVCreate(stringbuilder);
         }
     }
 }

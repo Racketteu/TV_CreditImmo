@@ -1,10 +1,30 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\wboya\\source\\repos\\CreditImmo\\",
+  "WorkspaceRootPath": "C:\\Users\\wboya\\OneDrive\\Bureau\\Cours\\TV_CreditImmo\\CreditImmo\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BF6E1F77-9547-454E-89F1-3C33D89D745C}|CreditImmo\\CreditImmo.csproj|c:\\users\\wboya\\source\\repos\\creditimmo\\creditimmo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7454A4A0-FAD7-480D-9FD6-D7B2A61E764D}|TestUnitaireCreditImmo\\TestUnitaireCreditImmo.csproj|c:\\users\\wboya\\onedrive\\bureau\\cours\\tv_creditimmo\\creditimmo\\testunitairecreditimmo\\testcalculation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7454A4A0-FAD7-480D-9FD6-D7B2A61E764D}|TestUnitaireCreditImmo\\TestUnitaireCreditImmo.csproj|solutionrelative:testunitairecreditimmo\\testcalculation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7454A4A0-FAD7-480D-9FD6-D7B2A61E764D}|TestUnitaireCreditImmo\\TestUnitaireCreditImmo.csproj|c:\\users\\wboya\\onedrive\\bureau\\cours\\tv_creditimmo\\creditimmo\\testunitairecreditimmo\\testcustomerinput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7454A4A0-FAD7-480D-9FD6-D7B2A61E764D}|TestUnitaireCreditImmo\\TestUnitaireCreditImmo.csproj|solutionrelative:testunitairecreditimmo\\testcustomerinput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF6E1F77-9547-454E-89F1-3C33D89D745C}|CreditImmo\\CreditImmo.csproj|c:\\users\\wboya\\onedrive\\bureau\\cours\\tv_creditimmo\\creditimmo\\creditimmo\\calculation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF6E1F77-9547-454E-89F1-3C33D89D745C}|CreditImmo\\CreditImmo.csproj|solutionrelative:creditimmo\\calculation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF6E1F77-9547-454E-89F1-3C33D89D745C}|CreditImmo\\CreditImmo.csproj|c:\\users\\wboya\\onedrive\\bureau\\cours\\tv_creditimmo\\creditimmo\\creditimmo\\customerinput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF6E1F77-9547-454E-89F1-3C33D89D745C}|CreditImmo\\CreditImmo.csproj|solutionrelative:creditimmo\\customerinput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF6E1F77-9547-454E-89F1-3C33D89D745C}|CreditImmo\\CreditImmo.csproj|c:\\users\\wboya\\onedrive\\bureau\\cours\\tv_creditimmo\\creditimmo\\creditimmo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BF6E1F77-9547-454E-89F1-3C33D89D745C}|CreditImmo\\CreditImmo.csproj|solutionrelative:creditimmo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF6E1F77-9547-454E-89F1-3C33D89D745C}|CreditImmo\\CreditImmo.csproj|c:\\users\\wboya\\onedrive\\bureau\\cours\\tv_creditimmo\\creditimmo\\creditimmo\\csv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF6E1F77-9547-454E-89F1-3C33D89D745C}|CreditImmo\\CreditImmo.csproj|solutionrelative:creditimmo\\csv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,24 +34,95 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TestCustomerInput.cs",
+              "DocumentMoniker": "C:\\Users\\wboya\\OneDrive\\Bureau\\Cours\\TV_CreditImmo\\CreditImmo\\TestUnitaireCreditImmo\\TestCustomerInput.cs",
+              "RelativeDocumentMoniker": "TestUnitaireCreditImmo\\TestCustomerInput.cs",
+              "ToolTip": "C:\\Users\\wboya\\OneDrive\\Bureau\\Cours\\TV_CreditImmo\\CreditImmo\\TestUnitaireCreditImmo\\TestCustomerInput.cs",
+              "RelativeToolTip": "TestUnitaireCreditImmo\\TestCustomerInput.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-09T17:28:12.111Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Calculation.cs",
+              "DocumentMoniker": "C:\\Users\\wboya\\OneDrive\\Bureau\\Cours\\TV_CreditImmo\\CreditImmo\\CreditImmo\\Calculation.cs",
+              "RelativeDocumentMoniker": "CreditImmo\\Calculation.cs",
+              "ToolTip": "C:\\Users\\wboya\\OneDrive\\Bureau\\Cours\\TV_CreditImmo\\CreditImmo\\CreditImmo\\Calculation.cs",
+              "RelativeToolTip": "CreditImmo\\Calculation.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAqwCAAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-09T17:25:41.991Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CustomerInput.cs",
+              "DocumentMoniker": "C:\\Users\\wboya\\OneDrive\\Bureau\\Cours\\TV_CreditImmo\\CreditImmo\\CreditImmo\\CustomerInput.cs",
+              "RelativeDocumentMoniker": "CreditImmo\\CustomerInput.cs",
+              "ToolTip": "C:\\Users\\wboya\\OneDrive\\Bureau\\Cours\\TV_CreditImmo\\CreditImmo\\CreditImmo\\CustomerInput.cs",
+              "RelativeToolTip": "CreditImmo\\CustomerInput.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABcAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-09T16:32:22.178Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "TestCalculation.cs",
+              "DocumentMoniker": "C:\\Users\\wboya\\OneDrive\\Bureau\\Cours\\TV_CreditImmo\\CreditImmo\\TestUnitaireCreditImmo\\TestCalculation.cs",
+              "RelativeDocumentMoniker": "TestUnitaireCreditImmo\\TestCalculation.cs",
+              "ToolTip": "C:\\Users\\wboya\\OneDrive\\Bureau\\Cours\\TV_CreditImmo\\CreditImmo\\TestUnitaireCreditImmo\\TestCalculation.cs",
+              "RelativeToolTip": "TestUnitaireCreditImmo\\TestCalculation.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-09T16:32:23.55Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CSV.cs",
+              "DocumentMoniker": "C:\\Users\\wboya\\OneDrive\\Bureau\\Cours\\TV_CreditImmo\\CreditImmo\\CreditImmo\\CSV.cs",
+              "RelativeDocumentMoniker": "CreditImmo\\CSV.cs",
+              "ToolTip": "C:\\Users\\wboya\\OneDrive\\Bureau\\Cours\\TV_CreditImmo\\CreditImmo\\CreditImmo\\CSV.cs",
+              "RelativeToolTip": "CreditImmo\\CSV.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-09T16:32:21.347Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\wboya\\source\\repos\\CreditImmo\\CreditImmo\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\wboya\\OneDrive\\Bureau\\Cours\\TV_CreditImmo\\CreditImmo\\CreditImmo\\Program.cs",
               "RelativeDocumentMoniker": "CreditImmo\\Program.cs",
-              "ToolTip": "C:\\Users\\wboya\\source\\repos\\CreditImmo\\CreditImmo\\Program.cs",
+              "ToolTip": "C:\\Users\\wboya\\OneDrive\\Bureau\\Cours\\TV_CreditImmo\\CreditImmo\\CreditImmo\\Program.cs",
               "RelativeToolTip": "CreditImmo\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAABQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-25T19:06:01.628Z",
               "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             }
           ]
         }
